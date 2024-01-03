@@ -1,0 +1,50 @@
+
+
+/*  START container */
+
+.container{
+
+    width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+/********************** END container*/
+
+
+/* ********************** */
+/* ********************** */
+/* ********************** */
+
+
+/* START Стили Хедера */
+
+.header__row{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+header{
+
+    border-bottom: 3px solid #F06B30;
+}
+
+.header__nav{
+
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/********************** END Стили Хедера*/
+
+/* ********************** */
+/* ********************** */
+/* ********************** */
