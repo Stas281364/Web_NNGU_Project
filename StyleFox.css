@@ -1,10 +1,42 @@
+/* ROOT */
+:root {
+    /* colors */
+    --color-black: #222222;
+    --color-brand: #F06B30;
+  
+    /* font */
+    --font-family: "Raleway";
+  
+    /* layout */
+    --header-height: 80px;
+}
+
+
+/* global */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  color: var(--color-black);
+}
+
+a {
+  color: var(--color-brand);
+}
 
 
 /*  START container */
 
 .container{
 
-    width: 1140px;
+    max-width: 1180px;
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
@@ -19,6 +51,43 @@
 
 
 /* START Стили Хедера */
+
+.page-header {
+    border-bottom: 1px solid var(--color-brand);
+}
+
+.page-header__row {
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-header__menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.page-header__menu a {
+    color: var(--color-black);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  
+    transition: all 0.3s ease;
+    text-decoration: none /*Убрал подчеркивание */
+}
+
+.page-header__menu a:hover {
+    color: var(--color-brand);
+    /* border-bottom: 1px solid var(--color-brand); */
+}
+
+/* ****** */
 
 .header__row{
    
