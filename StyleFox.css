@@ -76,10 +76,9 @@ a {
 .page-header__menu a {
     color: var(--color-black);
     text-decoration: none;
-    border-bottom: 1px solid transparent;
+    /* border-bottom: 1px solid transparent; */
   
     transition: all 0.3s ease;
-    text-decoration: none /*Убрал подчеркивание */
 }
 
 .page-header__menu a:hover {
