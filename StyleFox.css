@@ -3,6 +3,7 @@
     /* colors */
     --color-black: #222222;
     --color-brand: #F06B30;
+    --color-brand-hover: #E84700;
   
     /* font */
     --font-family: "Raleway";
@@ -29,6 +30,10 @@ body {
 
 a {
   color: var(--color-brand);
+}
+
+.logo {
+  display: block;
 }
 
 

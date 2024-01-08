@@ -1,3 +1,10 @@
+/* global */
+h3,
+p {
+  margin: 0;
+}
+
+/* layout */
 .page-section--article {
   padding: 60px 0;
 }
@@ -12,4 +19,51 @@
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+}
+
+.article__title {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  padding-bottom: 5px;
+}
+
+.article__date {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 60%;
+
+  padding-bottom: 20px;
+}
+
+.article__text {
+  font-size: 18px;
+  font-weight: 400;
+
+  padding-bottom: 20px;
+}
+
+.article__text:last-child {
+  padding-bottom: 0;
+}
+
+.article__text--bold {
+  font-weight: 500;
+}
+
+.article__text--link {
+  color: var(--color-brand);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.article__text--link:hover {
+  color: var(--color-brand-hover);
+  transition: all 0.3s ease;
+}
+
+.article__video {
+  display: block;
+  padding-bottom: 20px;
 }
