@@ -10,6 +10,7 @@
   
     /* layout */
     --header-height: 80px;
+    --footer-height: 88px;
 }
 
 
@@ -121,3 +122,72 @@ header{
 /* ********************** */
 /* ********************** */
 /* ********************** */
+
+/* footer */
+.page-footer__top,
+.page-footer__bottom {
+  border-top: 1px solid var(--color-brand);
+}
+
+.page-footer__row {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 72px;
+}
+
+.page-footer__menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 25px;
+  font-size: 16px;
+  font-weight: 400;
+
+  padding-right: 282px;
+}
+
+.page-footer__menu a {
+  color: var(--color-black);
+  opacity: 75%;
+  text-decoration: none;
+  /* border-bottom: 1px solid transparent; */
+
+  transition: all 0.3s ease;
+}
+
+.page-footer__menu a:hover {
+  opacity: 100%;
+  /* border-bottom: 1px solid var(--color-black); */
+}
+
+.page-footer__contact {
+  display: flex;
+  column-gap: 10px;
+}
+
+.page-footer__bottom {
+  height: var(--header-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-footer__text {
+  color: #999;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.contact-img {
+  opacity: 75%;
+  display: block;
+
+  transition: all 0.3s ease;
+}
+
+.contact-img:hover {
+  opacity: 100%;
+}

@@ -56,14 +56,16 @@ p {
   color: var(--color-brand);
   font-size: 18px;
   font-weight: 600;
+
+  transition: all 0.3s ease;
 }
 
 .article__text--link:hover {
   color: var(--color-brand-hover);
-  transition: all 0.3s ease;
 }
 
 .article__video {
   display: block;
   padding-bottom: 20px;
 }
+
