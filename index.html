@@ -8,8 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- styles -->
-    <link rel="stylesheet" href="./StyleFox.css">
+   
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+     <!-- styles -->
+     <link rel="stylesheet" href="./StyleFox.css">
+
+
 </head>
 <body>
 
@@ -39,10 +45,53 @@
     </div>
   </header>
   <!-- END header -->
+
+  <!-- Swiper -->
+  <!-- Slider main container -->
+
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            
+            <!-- Slides -->
+            <div class="swiper-slide">
+                
+                <div class="slide__intro" >
+                    <div class="slide__intro__title">
+                        <div>Magic shop - </div>
+                        <div>Старт пбт!</div>
+                    </div>
+                    <div class="slide__intro__text">
+                        <div>Старт публичного бета-теста с 10 по 23 декабря.</div>
+                        <div>Не упустите возможность первым познакомиться с проектом!</div>
+                    </div>
+                    <div class="slide__intro__button">Узнать подробности</div>
+                </div>
+
+                <div class="slide__img">
+                    <img src="./Image/main_fox_slide_MagicShop.png" alt="MagicShop">
+                </div>
+                
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+    
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+  <!-- END Swiper -->
     
 
   <!-- footer -->
-  <!-- Я добавила тебе сразу футер, раскомментишь потом
+  Я добавила тебе сразу футер, раскомментишь потом
     <footer class="page-footer">
     
     <div class="page-footer__top">
@@ -80,7 +129,13 @@
       </div>
     </div>
   </footer> 
--->
+
   <!-- END footer -->
+
+  <!-- СКРИПТЫ -->
+  <!-- cкрипт свипера с сайта -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- наш свипер -->
+  <script src="./Swiper.js"></script>
 </body>
 </html>

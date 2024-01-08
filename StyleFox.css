@@ -1,16 +1,14 @@
 /* ROOT */
 :root {
-    /* colors */
-    --color-black: #222222;
-    --color-brand: #F06B30;
-    --color-brand-hover: #E84700;
-  
-    /* font */
-    --font-family: "Raleway";
-  
-    /* layout */
-    --header-height: 80px;
-    --footer-height: 88px;
+  /* colors */
+  --color-black: #222222;
+  --color-brand: #F06B30;
+  --color-brand-hover: #E84700;
+  /* font */
+  --font-family: "Raleway";
+  /* layout */
+  --header-height: 80px;
+  --footer-height: 88px;
 }
 
 
@@ -42,10 +40,10 @@ a {
 
 .container{
 
-    max-width: 1180px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 auto;
+  max-width: 1180px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
 }
 
 /********************** END container*/
@@ -59,65 +57,122 @@ a {
 /* START Стили Хедера */
 
 .page-header {
-    border-bottom: 1px solid var(--color-brand);
+  border-bottom: 1px solid var(--color-brand);
 }
 
 .page-header__row {
-    height: var(--header-height);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .page-header__menu {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    gap: 60px;
-    font-size: 18px;
-    font-weight: 600;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .page-header__menu a {
-    color: var(--color-black);
-    text-decoration: none;
-    /* border-bottom: 1px solid transparent; */
-  
-    transition: all 0.3s ease;
+  color: var(--color-black);
+  text-decoration: none;
+  /* border-bottom: 1px solid transparent; */
+
+  transition: all 0.3s ease;
 }
 
 .page-header__menu a:hover {
-    color: var(--color-brand);
-    /* border-bottom: 1px solid var(--color-brand); */
+  color: var(--color-brand);
+  /* border-bottom: 1px solid var(--color-brand); */
 }
 
 /* ****** */
 
 .header__row{
    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 header{
 
-    border-bottom: 3px solid #F06B30;
+  border-bottom: 3px solid #F06B30;
 }
 
 .header__nav{
 
-    list-style: none;
+  list-style: none;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 /********************** END Стили Хедера*/
+
+/* ********************** */
+/* ********************** */
+/* ********************** */
+
+/* SWIPER*/
+
+.swiper {
+  /* width: 600px;
+  height: 300px; */
+}
+
+.swiper-slide-active{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.slide__intro{
+
+  
+}
+
+.slide__intro__title{
+
+  color: #222;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+
+}
+
+.slide__intro__text{
+  
+  color: #222;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.slide__intro__button{
+
+
+}
+
+
+/********************** END swiper*/
 
 /* ********************** */
 /* ********************** */
@@ -191,3 +246,9 @@ header{
 .contact-img:hover {
   opacity: 100%;
 }
+
+/*********************** END footer */
+
+/* ********************** */
+/* ********************** */
+/* ********************** */
