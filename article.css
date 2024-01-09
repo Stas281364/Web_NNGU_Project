@@ -91,7 +91,7 @@ p {
   padding-bottom: 20px;
 }
 
-.article__text:last-child {
+.article :last-child {
   padding-bottom: 0;
 }
 
