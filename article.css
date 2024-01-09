@@ -8,7 +8,8 @@
 /* global */
 h1,
 h3,
-p {
+p,
+ol {
   margin: 0;
 }
 
@@ -54,6 +55,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 
   padding: 40px;
 
@@ -69,12 +71,20 @@ p {
   margin: 0 auto;
 }
 
-.article p {
+.article p, li {
   padding-bottom: 20px;
 }
 
 .article p:last-child {
   padding-bottom: 0;
+}
+
+.article ol {
+  padding-left: 15px;
+}
+
+.article li::marker {
+  font-weight: 500;
 }
 
 .article__title {
@@ -97,7 +107,7 @@ p {
 }
 
 .article__text--bold {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .article__text--link {
