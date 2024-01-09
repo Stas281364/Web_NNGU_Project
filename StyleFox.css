@@ -252,3 +252,21 @@ header{
 /* ********************** */
 /* ********************** */
 /* ********************** */
+
+/* Back to top */
+/* стрелка наверх сбоку странички */
+.back-to-top {
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
+  display: none;
+  cursor: pointer;
+  opacity: 75%;
+  z-index: 1000;
+
+  transition: all 0.3s ease;
+}
+ 
+.back-to-top:hover {
+  opacity: 100%;
+}
