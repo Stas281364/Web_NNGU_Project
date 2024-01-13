@@ -124,8 +124,13 @@ header{
 /* SWIPER*/
 
 .swiper {
-  /* width: 600px;
-  height: 300px; */
+  /* width: 600px; */
+  /* height: 300px; */
+}
+
+.swiper-wrapper{
+
+ 
 }
 
 .swiper-slide-active{
@@ -134,6 +139,8 @@ header{
   align-items: center;
   justify-content: space-around;
   gap: 15px;
+  margin-top: 52px;
+  margin-right: 158px;
 }
 
 .slide__intro{
@@ -168,6 +175,18 @@ header{
 
 .slide__intro__button{
 
+  border-radius: 40px;
+  background-color: var(--color-brand);
+  text-align: center;
+  padding: 15px 42px;
+  display: inline-block;
+
+}
+
+.slide__intro__button:hover{
+
+  border-radius: 40px;
+  background-color: var(--color-brand-hover);
 
 }
 
