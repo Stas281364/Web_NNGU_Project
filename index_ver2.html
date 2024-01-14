@@ -93,6 +93,7 @@
       </div>
     </section>
 
+    <!-- about project -->
     <section class="page-section--pd80">
       <div class="about-project container">
         <h2 class="title about-project__title">Наши проекты</h2>
@@ -101,25 +102,107 @@
       </div>
     </section>
 
+    <!-- project -->
     <section class="page-section--grey page-section--pd80">
       <div class="project container">
-        <div class="card project__card">
-          <div class="card__img">
-            <a href="#"><img src="./Image/project/Euphoria.png" alt="Euphoria"></a>
-          </div>
-          <div class="card__title">
-            <h3>Euphoria</h3>
-            <div class="card__rating">
-              <img src="./Image/star_icon.svg" alt="">
-              <p>4.6</p>
-            </div>
-          </div>
-          <p class="card__text">Платформы: Windows, macOS, Nintendo Switch</p>
-          <p class="card__text">Дата релиза: 09.10.2023 </p>
-          <a href="" class="button card__button">Узнать подробности</a>
+        <div class="project__swiper swiper">
+
+          <ul class="project__list swiper-wrapper">
+              <li class="card project__card swiper-slide">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="#"><img src="./Image/project/Euphoria.png" alt="Euphoria"></a>
+                  </div>
+                  <div class="card__title">
+                    <a href="#">Euphoria</a>
+                    <div class="card__rating">
+                      <img src="./Image/star_icon.svg" alt="">
+                      <p>4.6</p>
+                    </div>
+                  </div>
+                  <p class="card__text"><span class="text--bold">Платформы:</span> Windows, macOS, Nintendo Switch</p>
+                  <p class="card__text"><span class="text--bold">Дата релиза:</span> 09.10.2023 </p>
+                </div>
+                <a href="" class="button card__button">Узнать подробности</a>
+              </li>
+    
+              <li class="card project__card swiper-slide">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="#"><img src="./Image/project/stay_away.png" alt="Stay Away"></a>
+                  </div>
+                  <div class="card__title">
+                    <a href="#">Stay away</a>
+                    <div class="card__rating">
+                      <img src="./Image/star_icon.svg" alt="">
+                      <p>4.7</p>
+                    </div>
+                  </div>
+                  <p class="card__text"><span class="text--bold">Платформы:</span> Windows, macOS, Nintendo Switch, Xbox One, PlayStation 4</p>
+                  <p class="card__text"><span class="text--bold">Дата релиза:</span> 07.03.2023</p>
+                </div>
+                <a href="" class="button card__button">Узнать подробности</a>
+              </li>
+
+              <li class="card project__card swiper-slide">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="#"><img src="./Image/project/take_two.png" alt="Take Two"></a>
+                  </div>
+                  <div class="card__title">
+                    <a href="#">Take two</a>
+                    <div class="card__rating">
+                      <img src="./Image/star_icon.svg" alt="">
+                      <p>4.4</p>
+                    </div>
+                  </div>
+                  <p class="card__text"><span class="text--bold">Платформы:</span> Windows, macOS, Android, iOS</p>
+                  <p class="card__text"><span class="text--bold">Дата релиза:</span> 03.07.2022</p>
+                </div>
+                <a href="" class="button card__button">Узнать подробности</a>
+              </li>
+
+              <li class="card project__card swiper-slide">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="#"><img src="./Image/project/magic_shop.jpg" alt="Magic Shop"></a>
+                  </div>
+                  <div class="card__title">
+                    <a href="#">Magic Shop</a>
+                    <div class="card__rating">
+                      <img src="./Image/star_icon.svg" alt="">
+                      <p>4.6</p>
+                    </div>
+                  </div>
+                  <p class="card__text"><span class="text--bold">Платформы:</span> Windows, macOS, Nintendo Switch, Xbox One, PlayStation 4</p>
+                  <p class="card__text"><span class="text--bold">Дата релиза:</span> 03.02.2024 </p>
+                </div>
+                <a href="" class="button card__button">Узнать подробности</a>
+              </li>
+
+              <li class="card project__card swiper-slide">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="#"><img src="./Image/project/reflection.jpg" alt="reflection"></a>
+                  </div>
+                  <div class="card__title">
+                    <a href="#">Reflection</a>
+                    <div class="card__rating">
+                      <img src="./Image/star_icon.svg" alt="">
+                      <p>4.5</p>
+                    </div>
+                  </div>
+                  <p class="card__text"><span class="text--bold">Платформы:</span> Windows, macOS, Android, iOS</p>
+                  <p class="card__text"><span class="text--bold">Дата релиза:</span> 15.05.2024 </p>
+                </div>
+                <a href="" class="button card__button">Узнать подробности</a>
+              </li>
+            </ul>
+
+          <div class="project__pagination"></div>
+            
         </div>
       </div>
-
     </section>
   </main>
 
@@ -170,5 +253,6 @@
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
   <script src="./js/backToTop.js"></script>
+
 </body>
 </html>

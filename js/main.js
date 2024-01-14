@@ -26,3 +26,15 @@ const topSlider = new Swiper('.slider', {
       }
     },
 });
+
+// cards slider
+const swiper = new Swiper(".project__swiper", {
+  slidesPerView: 3,
+  spaceBetween: 22,
+  freeMode: true,
+
+  pagination: {
+    el: ".project__pagination",
+    clickable: true,
+  },
+});
