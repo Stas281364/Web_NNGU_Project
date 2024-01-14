@@ -33,8 +33,20 @@ a {
   color: var(--color-brand);
 }
 
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 .logo {
   display: block;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 /* layout */
@@ -55,13 +67,6 @@ a {
 
 .page-section--grey {
   background-color: #F4F4F4;
-}
-
-/* for text */
-.title {
-  font-size: 40px;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 /* button */
@@ -173,10 +178,6 @@ header {
   margin-bottom: 20px;
 }
 
-.slider-block p {
-  margin: 0;
-}
-
 .slider-block__button {
   margin-top: 40px;
 }
@@ -188,6 +189,90 @@ header {
   object-fit: cover;
 }
 
+/* about */
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 100px;
+
+  background-image: url(../Image/icon_paws/9035065_paw_icon\ 3.png), url(../Image/icon_paws/9035065_paw_icon\ 1.png), url(../Image/icon_paws/9035065_paw_icon\ 2.png);
+  background-repeat: no-repeat;
+  background-position: top 40px right 440px , top 134px right, right 380px bottom;
+}
+
+.about__title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about p {
+  padding-bottom: 20px;
+  line-height: 120%;
+}
+
+.about p:last-child {
+  padding-bottom: 0;
+}
+
+/* about-project */
+.about-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-project p {
+  max-width: 946px;
+  line-height: 120%;
+  padding-top: 30px;
+}
+
+.about-project__quote {
+  color: var(--color-brand);
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/* project + card */
+.card {
+  max-width: 367px;
+  padding: 24px;
+  background-color: #fff;
+}
+
+.card__img {
+  width: 320px;
+  height: 320px;
+}
+
+.card__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__title {
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+
+  padding-bottom: 20px;
+}
+
+.card__title h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 120%;
+
+  padding-right: 20px;
+}
+
+.card__rating {
+  display: flex;
+  align-items: center;
+}
 
 /* footer */
 .page-footer__top,
