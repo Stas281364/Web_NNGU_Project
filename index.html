@@ -3,23 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fox Game</title>
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
-   
-    <!-- Swiper -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-
      <!-- styles -->
-     <link rel="stylesheet" href="./StyleFox.css">
+     <link rel="stylesheet" href="styles/swiper-bundle.min.css">
 
-
+     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
-    <!-- header -->
+  <!-- header -->
   <header class="page-header">
 
     <div class="container">
@@ -46,124 +42,177 @@
   </header>
   <!-- END header -->
 
-  <!-- Swiper -->
-  <!-- Slider main container -->
+  <main>
+    <!-- slider -->
+    <div class="container">
+      <div class="slider swiper page-section--pd60">
+        <ul class="slider__list swiper-wrapper">
 
-    <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-            
-            <!-- Slides -->
-            <!-- First slide -->
-            <div class="swiper-slide">
-                
-              <div class="slide__intro" >
-                <!-- Заголовок -->
-                <div class="slide__intro__title">
-                  <div>Magic shop - </div>
-                  <div>Старт пбт!</div>
-                </div>
-
-                <!-- Комментарий -->  
-                <div class="slide__intro__text">
-                  <div>Старт публичного бета-теста с 10 по 23 декабря.</div>
-                  <div>Не упустите возможность первым познакомиться с проектом!</div>
-                </div>
-
-                  <!-- Кнопка -->
-                <div class="slide__intro__button">Узнать подробности</div>
-              
-              </div>
-
-              <!-- Img -->
-              <div class="slide__img">
-                <img src="./Image/main_fox_slide_MagicShop.png" alt="MagicShop">
-              </div>  
-
+          <li class="swiper-slide slider-block">
+            <div class="slider-block__text">
+              <div class="title slider-block__title">Стань частью команды FOX Game!</div>
+              <p>Открыты вакансии на должность гейм-дизайнера, программиста С++ и другие. Успей подать свою заявку!</p>
+              <a href="#" class="button slider-block__button">Узнать подробности</a>
             </div>
+            <img src="image/main_fox_slide_vacancy.png" alt="" class="slider-block__img">
+          </li>
 
-            <!-- Second slide -->
-            <div class="swiper-slide">
-
-              <div class="slide__intro" >
-                
-                <!-- Заголовок -->
-                <div class="slide__intro__title">
-                    <div>Стань частью</div>
-                    <div>команды FOX Game!</div>
-                </div>
-                
-                <!-- Комментарий -->
-                <div class="slide__intro__text">
-                    <div>Открыты вакансии на должность гейм-</div>
-                    <div>дизайнера, программиста С++ и другие.</div>
-                    <div>Успей подать свою заявку!</div>
-                    <p>Открыты вакансии на должность гейм-дизайнера, программиста С++ и другие. Успей подать свою заявку!</p>
-                </div>
-                <!-- Кнопка -->
-                <div class="slide__intro__button">Узнать подробности</div>
-              
-              </div>
-              
-              <!-- Img -->
-              <div class="slide__img">
-                <img src="./Image/main_fox_slide_vacancy.png" alt="Vacancy">
-              </div>  
+          <li class="swiper-slide slider-block">
+            <div class="slider-block__text">
+              <div class="title slider-block__title">Magic shop - <br>
+              Старт пбт!</div>
+              <p>Старт публичного бета-теста с 10 по 23 декабря. Не упустите возможность первым познакомиться с проектом!</p>
+              <a href="#" class="button slider-block__button">Узнать подробности</a>
             </div>
-            
-            
-            <!-- Third slide -->
-            <div class="swiper-slide">
+            <img src="image/main_fox_slide_MagicShop.png" alt="" class="slider-block__img">
+          </li>
 
-              <div class="slide__intro" >
-
-                <!-- Заголовок -->
-                <div class="slide__intro__title">
-                  <div>Партнерская</div>
-                  <div>программа для</div>
-                  <div>контент-мейкеров</div>
-                </div>
-
-                <!-- Комментарий -->
-                <div class="slide__intro__text">
-                  <div>Станьте партнёром Fox Game и получайте</div>
-                  <div>ранний доступ к нашим играм!</div>
-                </div>
-                <!-- Кнопка -->
-                <div class="slide__intro__button"><a href="./">Узнать подробности</a></div>
-              
-              </div>
-
-              <!-- Img -->
-              <div class="slide__img">
-                <img src="./Image/main_fox_slide_streamer.png" alt="Vacancy">
-              </div>  
-
+          <li class="swiper-slide slider-block">
+            <div class="slider-block__text">
+              <div class="title slider-block__title">Партнерская программа для контент-мейкеров</div>
+              <p>Станьте партнёром Fox Game и получайте ранний доступ к нашим играм!</p>
+              <a href="#" class="button slider-block__button">Узнать подробности</a>
             </div>
+            <img src="image/main_fox_slide_streamer.png" alt="" class="slider-block__img">
+          </li>
+        </ul> 
+
+        <div class="slider__nav"></div>
+      </div>
+    </div>
+
+    <!-- about -->
+    <section class="page-section--grey page-section--pd80">
+      <div class="about container">
+        <img src="./Image/about.png" alt="" class="about__img">
+        <div class="about__text">
+          <h2 class="title about__title">О нас</h2>
+          <p>Мы - передовая и инновационная игровая студия, которая расширяет границы воображения. Мы верим в создание увлекательного опыта, который переносит игроков в захватывающие виртуальные миры, наполненные чудесами, волнением и бесконечными возможностями.</p>
+          <p>Наша команда талантливых разработчиков, дизайнеров, художников и сценаристов неустанно работает над созданием игр, которые захватывают ваши чувства и отправляют в незабываемые путешествия. От потрясающей графики до умопомрачительной игровой механики — каждый аспект тщательно проработан, чтобы обеспечить беспрецедентный игровой опыт.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about project -->
+    <section class="page-section--pd80">
+      <div class="about-project container">
+        <h2 class="title about-project__title">Наши проекты</h2>
+        <p>Приоритет нашей студии — качественный контент, многократно отмеченный экспертами и игроками. Мы специализируемся на создании неповторимой атмосферы, увлекательного геймплея, красочной графики и уникального игрового опыта.</p>
+        <p class="about-project__quote">“Ваши ощущения - наши приключения!”</p>
+      </div>
+    </section>
+
+    <!-- project -->
+    <section class="page-section--grey page-section--pd80">
+      <div class="project container">
+        <div class="project__swiper swiper">
+
+          <ul class="project__list swiper-wrapper">
+              <li class="card project__card swiper-slide">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="#"><img src="./Image/project/Euphoria.png" alt="Euphoria"></a>
+                  </div>
+                  <div class="card__title">
+                    <a href="#">Euphoria</a>
+                    <div class="card__rating">
+                      <img src="./Image/star_icon.svg" alt="">
+                      <p>4.6</p>
+                    </div>
+                  </div>
+                  <p class="card__text"><span class="text--bold">Платформы:</span> Windows, macOS, Nintendo Switch</p>
+                  <p class="card__text"><span class="text--bold">Дата релиза:</span> 09.10.2023 </p>
+                </div>
+                <a href="" class="button card__button">Узнать подробности</a>
+              </li>
+    
+              <li class="card project__card swiper-slide">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="#"><img src="./Image/project/stay_away.png" alt="Stay Away"></a>
+                  </div>
+                  <div class="card__title">
+                    <a href="#">Stay away</a>
+                    <div class="card__rating">
+                      <img src="./Image/star_icon.svg" alt="">
+                      <p>4.7</p>
+                    </div>
+                  </div>
+                  <p class="card__text"><span class="text--bold">Платформы:</span> Windows, macOS, Nintendo Switch, Xbox One, PlayStation 4</p>
+                  <p class="card__text"><span class="text--bold">Дата релиза:</span> 07.03.2023</p>
+                </div>
+                <a href="" class="button card__button">Узнать подробности</a>
+              </li>
+
+              <li class="card project__card swiper-slide">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="#"><img src="./Image/project/take_two.png" alt="Take Two"></a>
+                  </div>
+                  <div class="card__title">
+                    <a href="#">Take two</a>
+                    <div class="card__rating">
+                      <img src="./Image/star_icon.svg" alt="">
+                      <p>4.4</p>
+                    </div>
+                  </div>
+                  <p class="card__text"><span class="text--bold">Платформы:</span> Windows, macOS, Android, iOS</p>
+                  <p class="card__text"><span class="text--bold">Дата релиза:</span> 03.07.2022</p>
+                </div>
+                <a href="" class="button card__button">Узнать подробности</a>
+              </li>
+
+              <li class="card project__card swiper-slide">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="#"><img src="./Image/project/magic_shop.jpg" alt="Magic Shop"></a>
+                  </div>
+                  <div class="card__title">
+                    <a href="#">Magic Shop</a>
+                    <div class="card__rating">
+                      <img src="./Image/star_icon.svg" alt="">
+                      <p>4.6</p>
+                    </div>
+                  </div>
+                  <p class="card__text"><span class="text--bold">Платформы:</span> Windows, macOS, Nintendo Switch, Xbox One, PlayStation 4</p>
+                  <p class="card__text"><span class="text--bold">Дата релиза:</span> 03.02.2024 </p>
+                </div>
+                <a href="" class="button card__button">Узнать подробности</a>
+              </li>
+
+              <li class="card project__card swiper-slide">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="#"><img src="./Image/project/reflection.jpg" alt="reflection"></a>
+                  </div>
+                  <div class="card__title">
+                    <a href="#">Reflection</a>
+                    <div class="card__rating">
+                      <img src="./Image/star_icon.svg" alt="">
+                      <p>4.5</p>
+                    </div>
+                  </div>
+                  <p class="card__text"><span class="text--bold">Платформы:</span> Windows, macOS, Android, iOS</p>
+                  <p class="card__text"><span class="text--bold">Дата релиза:</span> 15.05.2024 </p>
+                </div>
+                <a href="" class="button card__button">Узнать подробности</a>
+              </li>
+            </ul>
+
+          <div class="project__pagination"></div>
             
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-    
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-    
-        <!-- If we need scrollbar -->
-        <!-- <div class="swiper-scrollbar"></div> -->
-    </div>
-  <!-- END Swiper -->
-    
+      </div>
+    </section>
+  </main>
 
   <!-- footer -->
-  Я добавила тебе сразу футер, раскомментишь потом
-    <footer class="page-footer">
-    
+  <footer class="page-footer">
     <div class="page-footer__top">
       <div class="container">
         <div class="page-footer__row">
         
-          <a href="./index.html"><img src="image/logo.svg" alt="Fox Game" width="122" height="66" class="logo page-footer__logo"></a>
+          <img src="image/logo.svg" alt="Fox Game" width="122" height="66" class="logo page-footer__logo">
 
           <nav class="page-footer__nav">
           <ul class="page-footer__menu">
@@ -194,13 +243,15 @@
       </div>
     </div>
   </footer> 
-
   <!-- END footer -->
 
-  <!-- СКРИПТЫ -->
-  <!-- cкрипт свипера с сайта -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <!-- наш свипер -->
-  <script src="./Swiper.js"></script>
+  <!-- якорь -->
+  <a href="#top" id="back-to-top" class="back-to-top" title="Наверх"><img src="./Image/back_to_top.svg" alt="" width="60" height="60"></a>
+
+  <!-- scripts -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="./js/backToTop.js"></script>
+
 </body>
 </html>
