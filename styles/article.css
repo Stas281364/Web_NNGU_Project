@@ -13,11 +13,6 @@ ol {
   margin: 0;
 }
 
-/* layout */
-.page-section--article {
-  padding: 60px 0;
-}
-
 /* article banner */
 .article-banner {
   position: relative;
@@ -46,9 +41,6 @@ ol {
 
 .article-banner__title {
   color: #FFF;
-  font-size: 40px;
-  font-weight: 700;
-  text-transform: uppercase;
 
   height: var(--banner-height);
   width: 100%;
@@ -82,21 +74,17 @@ ol {
 
 .article__title {
   font-size: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
 
   padding-bottom: 5px;
 }
 
 .article__date {
   font-size: 16px;
-  font-weight: 400;
   opacity: 60%;
 }
 
 .article__text {
   font-size: 18px;
-  font-weight: 400;
 }
 
 .article__text--bold {

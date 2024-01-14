@@ -42,14 +42,15 @@
   </header>
   <!-- END header -->
 
+  <main>
     <!-- slider -->
     <div class="container">
-      <div class="slider swiper">
+      <div class="slider swiper page-section--pd60">
         <ul class="slider__list swiper-wrapper">
 
           <li class="swiper-slide slider-block">
             <div class="slider-block__text">
-              <div class="slider-block__title">Стань частью команды FOX Game!</div>
+              <div class="title slider-block__title">Стань частью команды FOX Game!</div>
               <p>Открыты вакансии на должность гейм-дизайнера, программиста С++ и другие. Успей подать свою заявку!</p>
               <a href="#" class="button slider-block__button">Узнать подробности</a>
             </div>
@@ -79,6 +80,19 @@
         <div class="slider__nav"></div>
       </div>
     </div>
+
+    <!-- about -->
+    <section class="page-section--grey page-section--pd80">
+      <div class="about container">
+        <img src="./Image/about.png" alt="" class="about__img">
+        <div class="about__text">
+          <h2 class="title about__title">О нас</h2>
+          <p>Мы - передовая и инновационная игровая студия, которая расширяет границы воображения. Мы верим в создание увлекательного опыта, который переносит игроков в захватывающие виртуальные миры, наполненные чудесами, волнением и бесконечными возможностями.</p>
+          <p>Наша команда талантливых разработчиков, дизайнеров, художников и сценаристов неустанно работает над созданием игр, которые захватывают ваши чувства и отправляют в незабываемые путешествия. От потрясающей графики до умопомрачительной игровой механики — каждый аспект тщательно проработан, чтобы обеспечить беспрецедентный игровой опыт.</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <!-- footer -->
   <footer class="page-footer">
@@ -119,7 +133,13 @@
   </footer> 
   <!-- END footer -->
 
+
+  <!-- якорь -->
+  <a href="#top" id="back-to-top" class="back-to-top" title="Наверх"><img src="./Image/back_to_top.svg" alt="" width="60" height="60"></a>
+
+  <!-- scripts -->
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="./js/backToTop.js"></script>
 </body>
 </html>
