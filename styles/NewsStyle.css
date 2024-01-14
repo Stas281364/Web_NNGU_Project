@@ -1,0 +1,78 @@
+/* NEWS */
+
+.news__title{
+
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .news{
+  
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    gap: 20px;
+  }
+  
+  .news-block__title{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .more{
+  
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .news-block__text{
+    position: relative;
+  
+    
+  }
+  
+  .news-block__date{
+  
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .subscribe-block__text{
+    padding-top: 5%;
+    
+  }
+  
+  .subscribe{
+  
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    gap: 20px;
+  
+  }
+  
+  .email-block{
+  
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .email-input{
+  
+    border-radius: 40px;
+    width: 67%;
+    padding-left: 5%;
+    font-size: var(--font-size);
+  
+  }
+  
+  /* END NEWS */
+  /* ********************** */
+  /* ********************** */
+  /* ********************** */
