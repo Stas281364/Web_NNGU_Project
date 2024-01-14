@@ -1,0 +1,262 @@
+/* ROOT */
+:root {
+  /* colors */
+  --color-black: #222222;
+  --color-brand: #F06B30;
+  --color-brand-hover: #E84700;
+  --color-brand-hover-button: #FF8C46;
+  /* font */
+  --font-family: "Raleway";
+  /* layout */
+  --header-height: 80px;
+  --footer-height: 88px;
+}
+
+/* global */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  color: var(--color-black);
+}
+
+a {
+  color: var(--color-brand);
+}
+
+.logo {
+  display: block;
+}
+
+/* layout */
+.container{
+
+  max-width: 1180px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+/* button */
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 220px;
+  height: 48px;
+  padding: 0 42px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 40px;
+  background-color: var(--color-brand);
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.button:hover {
+  background-color: var(--color-brand-hover-button);
+}
+
+
+/* header */
+.page-header {
+  border-bottom: 1px solid var(--color-brand);
+}
+
+.page-header__row {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-header__menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 60px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.page-header__menu a {
+  color: var(--color-black);
+  text-decoration: none;
+  /* border-bottom: 1px solid transparent; */
+
+  transition: all 0.3s ease;
+}
+
+.page-header__menu a:hover {
+  color: var(--color-brand);
+  /* border-bottom: 1px solid var(--color-brand); */
+}
+
+.header__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+header {
+  border-bottom: 3px solid #F06B30;
+}
+
+.header__nav {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+
+/* slider */
+.slider__list {
+  margin: 0;
+  padding: 60px 0;
+  list-style: none;
+}
+
+
+.slider__nav.swiper-pagination-bullets {
+  --swiper-theme-color: var(--color-brand);
+  --swiper-pagination-bullet-inactive-color: #EAEAEA;
+  --swiper-pagination-bullet-inactive-opacity: 100%;
+  --swiper-pagination-bottom: 60px;
+  --swiper-pagination-bullet-size: 16px;
+  --swiper-pagination-bullet-horizontal-gap: 8px;
+
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.slider-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 174px;
+}
+
+.slider-block__title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.slider-block p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.slider-block__button {
+  margin-top: 40px;
+}
+
+.slider-block__img {
+  width: 480px;
+  height: 480px;
+
+  object-fit: cover;
+}
+
+
+/* footer */
+.page-footer__top,
+.page-footer__bottom {
+  border-top: 1px solid var(--color-brand);
+}
+
+.page-footer__row {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 72px;
+}
+
+.page-footer__menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 25px;
+  font-size: 16px;
+  font-weight: 400;
+
+  padding-right: 282px;
+}
+
+.page-footer__menu a {
+  color: var(--color-black);
+  opacity: 75%;
+  text-decoration: none;
+  /* border-bottom: 1px solid transparent; */
+
+  transition: all 0.3s ease;
+}
+
+.page-footer__menu a:hover {
+  opacity: 100%;
+  /* border-bottom: 1px solid var(--color-black); */
+}
+
+.page-footer__contact {
+  display: flex;
+  column-gap: 10px;
+}
+
+.page-footer__bottom {
+  height: var(--header-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-footer__text {
+  color: #999;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.contact-img {
+  opacity: 75%;
+  display: block;
+
+  transition: all 0.3s ease;
+}
+
+.contact-img:hover {
+  opacity: 100%;
+}
+
+/* Back to top */
+/* стрелка наверх сбоку странички */
+.back-to-top {
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
+  display: none;
+  cursor: pointer;
+  opacity: 75%;
+  z-index: 1000;
+
+  transition: all 0.3s ease;
+}
+ 
+.back-to-top:hover {
+  opacity: 100%;
+}
