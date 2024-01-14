@@ -43,18 +43,11 @@ p {
   display: block;
 }
 
-<<<<<<< HEAD
 .title {
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
 }
-=======
-/* END global */
-/* ********************** */
-/* ********************** */
-/* ********************** */
->>>>>>> 8ef804145553ed325b5ba7d826d24c4a89d7cb73
 
 /* layout */
 .container{
@@ -209,7 +202,6 @@ header {
   object-fit: cover;
 }
 
-<<<<<<< HEAD
 /* about */
 .about {
   display: flex;
@@ -294,13 +286,6 @@ header {
   display: flex;
   align-items: center;
 }
-=======
-/* END slider */
-/* ********************** */
-/* ********************** */
-/* ********************** */
-
->>>>>>> 8ef804145553ed325b5ba7d826d24c4a89d7cb73
 
 /* footer */
 .page-footer__top,
