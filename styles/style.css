@@ -34,6 +34,11 @@ a {
   display: block;
 }
 
+/* END global */
+/* ********************** */
+/* ********************** */
+/* ********************** */
+
 /* layout */
 .container{
 
@@ -42,6 +47,11 @@ a {
   padding-right: 20px;
   margin: 0 auto;
 }
+
+/* END layout */
+/* ********************** */
+/* ********************** */
+/* ********************** */
 
 /* button */
 .button {
@@ -64,6 +74,10 @@ a {
   background-color: var(--color-brand-hover-button);
 }
 
+/* END button */
+/* ********************** */
+/* ********************** */
+/* ********************** */
 
 /* header */
 .page-header {
@@ -120,6 +134,11 @@ header {
   gap: 30px;
 }
 
+/* END header */
+/* ********************** */
+/* ********************** */
+/* ********************** */
+
 
 /* slider */
 .slider__list {
@@ -172,6 +191,11 @@ header {
 
   object-fit: cover;
 }
+
+/* END slider */
+/* ********************** */
+/* ********************** */
+/* ********************** */
 
 
 /* footer */
@@ -232,6 +256,12 @@ header {
   font-weight: 400;
 }
 
+/* END footer */
+/* ********************** */
+/* ********************** */
+/* ********************** */
+
+/* contact */
 .contact-img {
   opacity: 75%;
   display: block;
@@ -242,6 +272,11 @@ header {
 .contact-img:hover {
   opacity: 100%;
 }
+
+/* END contact */
+/* ********************** */
+/* ********************** */
+/* ********************** */
 
 /* Back to top */
 /* стрелка наверх сбоку странички */
@@ -260,3 +295,82 @@ header {
 .back-to-top:hover {
   opacity: 100%;
 }
+
+/* NEWS */
+
+.news__title{
+
+  text-align: center;
+  margin-top: 60px;
+}
+
+.news{
+
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  gap: 20px;
+}
+
+.news-block__title{
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.more{
+
+  text-align: center;
+  margin-top: 60px;
+}
+
+.news-block__text{
+  position: relative;
+
+  
+}
+
+.news-block__date{
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.subscribe-block__text{
+  padding-top: 5%;
+  
+}
+
+.subscribe{
+
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  gap: 20px;
+
+}
+
+.email-block{
+
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.email-input{
+
+  border-radius: 40px;
+  width: 67%;
+  padding-left: 5%;
+  font-size: var(--font-size);
+
+}
+
+/* END NEWS */
+/* ********************** */
+/* ********************** */
+/* ********************** */
