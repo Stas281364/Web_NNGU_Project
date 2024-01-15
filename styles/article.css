@@ -10,6 +10,10 @@ ol {
   margin: 0;
 }
 
+.fancybox__container {
+  --fancybox-bg: rgba(24, 24, 27, 0.6);
+}
+
 /* article banner */
 .article-banner {
   position: relative;

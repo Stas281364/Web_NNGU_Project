@@ -38,3 +38,12 @@ const swiper = new Swiper(".project__swiper", {
     clickable: true,
   },
 });
+
+// gallery
+const gallery = new Swiper('.gallery', {
+  slidesPerView: 3,
+  spaceBetween: 20,
+});
+
+// fancybox
+Fancybox.bind("[data-fancybox]");
