@@ -39,6 +39,16 @@ const swiper = new Swiper(".project__swiper", {
   },
 });
 
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});
+
 // gallery
 const gallery = new Swiper('.gallery', {
   slidesPerView: 3,
