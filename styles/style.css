@@ -449,6 +449,74 @@ header {
   border-bottom: 1px solid #F06B30;
 }
 
+/* feedback */
+.feedback__grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 20px;
+}
+
+.feedback__contacts {
+  grid-column: span 5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 43px;
+}
+
+.feedback__contacts-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.feedback__form {
+  grid-column: 7 / 13;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feedback__text--bold {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.feedback__social-media {
+  display: flex;
+  column-gap: 12px;
+}
+
+.feedback__social-media-icon {
+  display: block;
+}
+
+/* form */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input {
+  outline: none;
+  height: 60px;
+  border-radius: 40px;
+  border: 1px solid #D1D1D1;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.form__textarea {
+  outline: none;
+  height: 140px;
+  border-radius: 40px;
+  border: 1px solid #D1D1D1;
+  padding: 0 20px;
+  box-sizing: border-box;
+  resize: none;
+}
 
 /* footer */
 .page-footer__top,
