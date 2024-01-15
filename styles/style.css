@@ -33,6 +33,10 @@ a {
   color: var(--color-brand);
 }
 
+a:hover {
+  color: var(--color-brand-hover);
+}
+
 h2,
 h3,
 p {
@@ -358,6 +362,97 @@ header {
   justify-content: center;
   margin-top: 60px;
 }
+
+/* Q&A + acor*/
+.q-and-a__title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.q-and-a__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.q-and-a__acor {
+  max-width: 656px;
+  box-sizing: content-box;
+}
+
+.acor-container .acor-body {
+  height: 0;
+  transition: all 0.5s ease;
+  overflow: hidden;
+  padding-right: 40px;
+
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.acor-container label {
+  position: relative;
+  padding: 19px 70px 19px 0;
+  font-weight: 500;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #F06B30;
+
+  transition: all 0.3s ease;
+}
+
+.acor-container label:hover {
+  color: #F06B30;
+  font-weight: 700;
+}
+
+.acor-container input{
+  display: none;
+}
+
+/* заголовок вопроса, когда он выбран */
+.acor-container input:checked + label {
+  color: #F06B30;
+  font-weight: 700;
+}
+
+/* картинка */
+.acor-container label:after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  opacity: 30%;
+
+  background-image: url(../Image/icon_paws/icon_paws_color.svg);
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  
+
+  position: absolute;
+  right: 0;
+  top: 10px;
+  transform: rotate(30deg);
+
+  transition: all 0.3s ease;
+}
+
+.acor-container label:hover:after {
+  opacity: 100%;
+}
+
+/* картинка, когда вопрос выбран */
+.acor-container input:checked + label:after {
+  opacity: 100%;
+}
+
+/* ответ на вопрос в раскрытом состоянии */
+.acor-container input:checked + label + .acor-body {
+  height: auto;
+  width: 100%;
+  padding: 30px 40px 30px 0;
+  border-bottom: 1px solid #F06B30;
+}
+
 
 /* footer */
 .page-footer__top,
