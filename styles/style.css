@@ -53,6 +53,17 @@ p {
   font-weight: 600;
 }
 
+.link {
+  color: var(--color-brand);
+  font-weight: 500;
+
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  color: var(--color-brand-hover);
+}
+
 /* layout */
 .container{
   max-width: 1180px;
@@ -382,7 +393,6 @@ header {
   padding-right: 40px;
 
   font-size: 18px;
-  font-weight: 400;
 }
 
 .acor-container label {
@@ -450,6 +460,11 @@ header {
 }
 
 /* feedback */
+.feedback__ttitle {
+  text-align: center;
+  margin-bottom: 44px;
+}
+
 .feedback__grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -479,9 +494,8 @@ header {
   justify-content: space-between;
 }
 
-.feedback__text--bold {
+.feedback__contacts-title {
   font-size: 24px;
-  font-weight: 600;
 }
 
 .feedback__social-media {
@@ -503,19 +517,53 @@ header {
   outline: none;
   height: 60px;
   border-radius: 40px;
-  border: 1px solid #D1D1D1;
-  padding: 0 20px;
+  border: 1px solid rgba(34, 34, 34, 0.30);
+  padding: 5px 20px;
   box-sizing: border-box;
+
+  font-family: "Raleway";
+  color: var(--color-black);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.form__input::placeholder {
+  color: rgba(34, 34, 34, 0.50);
+}
+
+.form__input:focus,
+.form__input:active,
+.form__input:hover {
+  border: 1px solid #F06B30;
 }
 
 .form__textarea {
   outline: none;
   height: 140px;
-  border-radius: 40px;
-  border: 1px solid #D1D1D1;
-  padding: 0 20px;
+  border-radius: 30px;
+  border: 1px solid rgba(34, 34, 34, 0.30);
+  padding: 20px;
   box-sizing: border-box;
   resize: none;
+
+  color: var(--color-black);
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.form__textarea::placeholder {
+  color: rgba(34, 34, 34, 0.50);
+}
+
+.form__textarea:focus,
+.form__textarea:active,
+.form__textarea:hover {
+  border: 1px solid #F06B30;
+}
+
+.form__button {
+  border: none;
 }
 
 /* footer */
@@ -563,7 +611,7 @@ header {
 }
 
 .page-footer__bottom {
-  height: var(--header-height);
+  height: var(--footer-height);
   display: flex;
   justify-content: center;
   align-items: center;
