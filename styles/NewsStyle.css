@@ -1,76 +1,76 @@
 /* NEWS */
 
-.news__title{
+.news__title {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+  
+.news-block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  gap: 20px;
+}
+  
+.news-block__title {
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+  
+.news-block__button {
+  margin-top: 30px;
+}
 
-    text-align: center;
-    margin-top: 60px;
-  }
+.news-block__text {
+  position: relative; 
+}
   
-  .news{
+.news-block__date {
+  font-size: 16px;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.more{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.more button {
+  border: none;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 97px;
+  gap: 20px;
+  border-top: 1px solid #EAEAEA;
+}
+
+.subscribe__title {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.email-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+
+  padding-top: 40px;
+}
   
-    display: flex;
-    justify-content: space-around;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    gap: 20px;
-  }
-  
-  .news-block__title{
-    margin-bottom: 20px;
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  
-  .more{
-  
-    text-align: center;
-    margin-top: 60px;
-  }
-  
-  .news-block__text{
-    position: relative;
-  
-    
-  }
-  
-  .news-block__date{
-  
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
-  
-  .subscribe-block__text{
-    padding-top: 5%;
-    
-  }
-  
-  .subscribe{
-  
-    display: flex;
-    justify-content: space-around;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    gap: 20px;
-  
-  }
-  
-  .email-block{
-  
-    display: flex;
-    justify-content: space-between;
-    
-  }
-  
-  .email-input{
-  
-    border-radius: 40px;
-    width: 67%;
-    padding-left: 5%;
-    font-size: var(--font-size);
-  
-  }
+.email-block__input {
+  height: 48px;
+  flex: 1;
+}
   
   /* END NEWS */
   /* ********************** */
