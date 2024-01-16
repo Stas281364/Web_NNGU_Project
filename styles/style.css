@@ -47,6 +47,7 @@ p {
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .text--bold {
@@ -206,6 +207,7 @@ header {
 
 .slider-block__title {
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .slider-block__button {
@@ -232,7 +234,6 @@ header {
 }
 
 .about__title {
-  text-align: center;
   margin-bottom: 30px;
 }
 
@@ -372,7 +373,6 @@ header {
 
 /* Q&A + acor*/
 .q-and-a__title {
-  text-align: center;
   margin-bottom: 30px;
 }
 
@@ -461,7 +461,6 @@ header {
 
 /* feedback */
 .feedback__ttitle {
-  text-align: center;
   margin-bottom: 44px;
 }
 
