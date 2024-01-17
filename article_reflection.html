@@ -9,8 +9,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
   <!-- styles -->
-  <link rel="stylesheet" href="./styles/style.css">
-  <link rel="stylesheet" href="./styles/article.css">
+  <link rel="stylesheet" href="styles/fancybox.css">
+  <link rel="stylesheet" href="styles/hamburgers.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/article.css">
+  <link rel="stylesheet" href="styles/media.css">
 </head>
 <body>
   <!-- header -->
@@ -19,6 +22,12 @@
       <div class="page-header__row">
 
         <a href="./index.html"><img src="Image/logo.svg" alt="Fox Game" width="122" height="66" class="logo page-header__logo"></a>
+
+        <button class="page-header__toggle-menu hamburger hamburger--squeeze" type="button" onclick="this.classList.toggle('is-active')">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
 
         <nav class="page-header__nav">
           <ul class="page-header__menu">
@@ -59,7 +68,7 @@
 
           <p class="article__text">На этапе закрытого бета-тестирования с ограниченным доступом удачливые участники получат исключительную возможность сформировать и усовершенствовать этот уникальный опыт. От вариантов настройки персонажа, которые идеально имитируют особенности реальной жизни, до замысловатых деталей ландшафтов, созданных специально для желаний каждого игрока — возможности кажутся безграничными.</p>
 
-          <p><iframe width="754" height="427" src="https://www.youtube.com/embed/4Jd5Rgne8J0?si=JzFi855olcN7a9Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="article__video"></iframe></p>
+          <p><iframe width="100%" height="427" src="https://www.youtube.com/embed/4Jd5Rgne8J0?si=JzFi855olcN7a9Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="article__video"></iframe></p>
           
 
           <p class="article__text">При первом знакомстве с <span class="text--bold">Reflection</span> открывается потрясающе реалистичная графика в сочетании с захватывающим звуковым оформлением — удовольствие для слуха в сочетании с захватывающими дух визуальными эффектами, тщательно разработанными талантливыми художниками Fox Game. В каждой сцене запечатлены даже мельчайшие детали — от солнечного света, пробивающегося сквозь листья в заколдованных лесах, до капель дождя, блестящих на городских улицах в сумерках.</p>

@@ -57,7 +57,7 @@ ol {
 
 /* article */
 .article {
-  width: calc(var(--article-width) + 40px);
+  max-width: calc(var(--article-width) + 40px);
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;

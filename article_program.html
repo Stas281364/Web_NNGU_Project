@@ -9,8 +9,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
   <!-- styles -->
-  <link rel="stylesheet" href="./styles/style.css">
-  <link rel="stylesheet" href="./styles/article.css">
+  <link rel="stylesheet" href="styles/fancybox.css">
+  <link rel="stylesheet" href="styles/hamburgers.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/article.css">
+  <link rel="stylesheet" href="styles/media.css">
 </head>
 <body>
   <!-- header -->
@@ -19,6 +22,12 @@
       <div class="page-header__row">
 
         <a href="./index.html"><img src="Image/logo.svg" alt="Fox Game" width="122" height="66" class="logo page-header__logo"></a>
+
+        <button class="page-header__toggle-menu hamburger hamburger--squeeze" type="button" onclick="this.classList.toggle('is-active')">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
 
         <nav class="page-header__nav">
           <ul class="page-header__menu">
