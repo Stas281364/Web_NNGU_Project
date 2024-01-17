@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
      <!-- styles -->
-     <link rel="stylesheet" href="styles/swiper-bundle.min.css">
-
-     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles/hamburgers.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
 </head>
 <body>
 
@@ -20,16 +21,23 @@
     <div class="container">
         <div class="page-header__row">
           <img src="Image/logo.svg" alt="Fox Game" width="122" height="66" class="logo page-header__logo">
-            <nav class="page-header__nav">
-            <ul class="page-header__menu">
-                <li><a href="#about">О нас</a></li>
-                <li><a href="#projects">Проекты</a></li>
-                <li><a href="#q-and-a">Вопрос-ответ</a></li>
-                <li><a href="#contacts">Контакты</a></li>
-                <li><a href="news.html">Новости</a></li>
-                <li><a href="article_vacancy.html">Вакансии</a></li>
-            </ul>
-            </nav>
+
+          <button class="page-header__toggle-menu hamburger hamburger--squeeze" type="button" onclick="this.classList.toggle('is-active')">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+
+          <nav class="page-header__nav">
+          <ul class="page-header__menu">
+              <li><a href="#about">О нас</a></li>
+              <li><a href="#projects">Проекты</a></li>
+              <li><a href="#q-and-a">Вопрос-ответ</a></li>
+              <li><a href="#contacts">Контакты</a></li>
+              <li><a href="news.html">Новости</a></li>
+              <li><a href="article_vacancy.html">Вакансии</a></li>
+          </ul>
+          </nav>
         </div>
     </div>
   </header>
@@ -296,10 +304,11 @@
       <div class="container">
         <div class="page-footer__row">
         
-          <img src="Image/logo.svg" alt="Fox Game" width="122" height="66" class="logo page-footer__logo">
+          
 
           <nav class="page-footer__nav">
           <ul class="page-footer__menu">
+            <img src="Image/logo.svg" alt="Fox Game" width="122" height="66" class="logo page-footer__logo">
             <li><a href="#">Контакты</a></li>
             <li><a href="#">Политика конфиденциальности</a></li>
           </ul>

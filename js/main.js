@@ -29,7 +29,7 @@ const topSlider = new Swiper('.slider', {
 
 // cards slider
 const swiper = new Swiper(".project__swiper", {
-  slidesPerView: 3,
+  slidesPerView: 'auto',
   spaceBetween: 22,
   freeMode: true,
 
